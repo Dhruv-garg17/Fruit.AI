@@ -1,0 +1,156 @@
+.chatbot-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  .chatbox {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    position: relative;
+  }
+  
+  .chatbox .chat-messages p {
+    margin: 0 0 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .chatbox button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .chatbox button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading-message {
+    font-size: 18px;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .menu {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .menu h3 {
+    margin: 0 0 15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu-item span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .menu-item button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* src/ChatPage.css */
+
+.chatbot-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .chatbox {
+    padding: 20px;
+  }
+  
+  .chatbot-image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .chat-messages p {
+    margin: 10px 0;
+  }
+  
+  .menu {
+    padding: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .quantity {
+    margin: 0 10px;
+  }
+  
+  .total {
+    padding: 20px;
+  }
+  
+  .order-message {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .help {
+    padding: 20px;
+  }
+  
+  .fruit-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .fruit-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .help button {
+    margin-top: 20px;
+  }
+  

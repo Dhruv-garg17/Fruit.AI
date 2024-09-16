@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./Images/Login.jpeg'); 
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+/* Default styles for larger screens (desktop) are already in your existing CSS */
+
+/* For tablets (768px and below) */
+@media (max-width: 768px) {
+  body {
+    background-size: contain;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* For mobile devices (480px and below) */
+@media (max-width: 480px) {
+  body {
+    background-size: cover;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* You can also adjust height or text alignment if needed for better readability on small screens */
+}
+
+/* For very small devices (360px and below) */
+@media (max-width: 360px) {
+  body {
+    background-position: top;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+

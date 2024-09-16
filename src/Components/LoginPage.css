@@ -1,0 +1,186 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.form-box {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-header button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-header button.active {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.fingerprint-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+ 
+  
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* For screens smaller than 768px (mobile devices) */
+@media only screen and (max-width: 768px) {
+  .auth-container {
+    padding: 10px; /* Add padding to prevent elements from touching the edges */
+  }
+
+  .form-box {
+    padding: 20px; /* Reduce padding for smaller screens */
+    width: 100%; /* Ensure the form box takes full width */
+    max-width: none; /* Remove max-width to use full width */
+  }
+
+  .form-header {
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+  }
+
+  .form-header button {
+    margin-bottom: 10px; /* Space between buttons */
+  }
+
+  .social-login {
+    flex-direction: column; /* Stack social login options vertically */
+    margin: 10px 0; /* Adjust margin */
+  }
+
+  .fingerprint-icon {
+    margin-top: 15px; /* Reduce top margin */
+  }
+
+  .forgot-password {
+    font-size: 0.8rem; /* Slightly smaller font size */
+  }
+
+  p {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* For screens between 768px and 1024px (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .auth-container {
+    padding: 20px; /* Add padding for medium-sized screens */
+  }
+
+  .form-box {
+    padding: 25px; /* Adjust padding */
+    width: 100%; /* Ensure full width usage */
+    max-width: 500px; /* Increase max-width for larger screens */
+  }
+
+  .form-header {
+    flex-direction: row; /* Keep buttons in a row */
+  }
+
+  .form-header button {
+    margin: 0 5px; /* Adjust margin between buttons */
+  }
+
+  .social-login {
+    flex-direction: row; /* Align social login options in a row */
+    margin: 15px 0; /* Adjust margin */
+  }
+
+  .fingerprint-icon {
+    margin-top: 20px; /* Adjust top margin */
+  }
+
+  .forgot-password {
+    font-size: 0.9rem; /* Default font size */
+  }
+
+  p {
+    font-size: 1rem; /* Default font size */
+  }
+}
+
+/* For screens larger than 1024px (desktops and larger screens) */
+@media only screen and (min-width: 1024px) {
+  .auth-container {
+    padding: 30px; /* Add padding for larger screens */
+  }
+
+  .form-box {
+    padding: 30px; /* Ensure consistent padding */
+    width: 100%;
+    max-width: 600px; /* Increase max-width for larger screens */
+  }
+
+  .form-header {
+    flex-direction: row; /* Keep buttons in a row */
+    justify-content: space-between; /* Space buttons evenly */
+  }
+
+  .form-header button {
+    margin: 0 10px; /* Add margin between buttons */
+  }
+
+  .social-login {
+    margin: 20px 0; /* Adjust margin */
+  }
+
+  .fingerprint-icon {
+    margin-top: 25px; /* Consistent top margin */
+  }
+
+  .forgot-password {
+    font-size: 1rem; /* Default font size */
+  }
+
+  p {
+    font-size: 1.1rem; /* Larger font size */
+  }
+}
