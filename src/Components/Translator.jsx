@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./translator.css";
+import "./Translator.css";
 
 // Languages array
 const languages = [
